@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class MarbleSkill : MonoBehaviour
+public class MarbleSet : MonoBehaviour
 {
     private Marble marble;
 
@@ -28,11 +28,11 @@ public class MarbleSkill : MonoBehaviour
 
     public struct Status
     {
-        public int attack;
+        public float attack;
         public float attackSpeed;
         public float attackRange;
 
-        public Status(int atk, float atkSpeed, float atkRange)
+        public Status(float atk, float atkSpeed, float atkRange)
         {
             attack = atk;
             attackSpeed = atkSpeed;
@@ -55,17 +55,19 @@ public class MarbleSkill : MonoBehaviour
 
     private void SetStatus()
     {
-        setStatus[0] = new Status(1, 1, 5);
-        setStatus[1] = new Status(1, 1, 5);
+        setStatus[(int)MarbleType.Fire] = new Status(1, 1, 5);
+        setStatus[(int)MarbleType.Electricity] = new Status(1, 1, 5);
 
-        setStatus[2] = new Status(5, 0.25f, 5);
+        setStatus[(int)MarbleType.Wind] = new Status(5, 0.25f, 5);
 
-        setStatus[3] = new Status(1, 1, 5);
-        setStatus[4] = new Status(1, 1, 5);
-        setStatus[5] = new Status(1, 1, 5);
-        setStatus[6] = new Status(1, 1, 5);
-        setStatus[7] = new Status(1, 1, 5);
-        setStatus[8] = new Status(1, 1, 5);
-        setStatus[9] = new Status(1, 1, 5);
+        setStatus[(int)MarbleType.Poison] = new Status(1, 1, 5);
+        setStatus[(int)MarbleType.Ice] = new Status(1, 1, 5);
+        setStatus[(int)MarbleType.Iron] = new Status(10, 1, 5);
+        setStatus[(int)MarbleType.Stone] = new Status(1, 1, 5);
+
+        setStatus[(int)MarbleType.Bow] = new Status(5, 0.5f, 5);
+
+        setStatus[(int)MarbleType.Laser] = new Status(1, 1, 5);
+        setStatus[(int)MarbleType.Light] = new Status(1, 1, 5);
     }
 }

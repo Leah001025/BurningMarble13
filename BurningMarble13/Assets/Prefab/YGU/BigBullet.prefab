@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3819054921853258348}
   - component: {fileID: 8780428038312032658}
   m_Layer: 0
-  m_Name: IronBullet
+  m_Name: BigBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  type: 5
+  type: 10
 --- !u!1 &6178951515078447487
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,7 +73,7 @@ Transform:
   m_GameObject: {fileID: 6178951515078447487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3819054921853258348}
@@ -120,7 +120,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 35d63ac85a1c91c4390682f660d722d8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 548fbe6848911bd49be37922ba133690, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

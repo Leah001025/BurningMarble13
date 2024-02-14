@@ -10,7 +10,7 @@ public class Monster : MonoBehaviour
     private MonsterMovement movement;
     //**private WaveSystem waveSystem;    
 
-    [HideInInspector]
+    //[HideInInspector]
     public GameManager.MobType mobType;
     
     public float hp = 0;
@@ -26,7 +26,7 @@ public class Monster : MonoBehaviour
 
     private void Update()
     {
-        Damage();//kill대신 자동damge
+        //Damage();//kill대신 자동damge
     }
 
     public void Setup(Transform[] spawnPoints)
