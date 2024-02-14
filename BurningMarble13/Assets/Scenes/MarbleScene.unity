@@ -223,7 +223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &181446839
 Transform:
   m_ObjectHideFlags: 0
@@ -255,7 +255,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: 627d292dd58f9470fa183bafc4342ada,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &210542099
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &297953127
 Transform:
   m_ObjectHideFlags: 0
@@ -472,7 +471,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: a66793be252084e5f8fb8afc10142570,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &306938934
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &509143281
 Transform:
   m_ObjectHideFlags: 0
@@ -689,7 +687,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: 501cd43513eb645788c7bfd88f74eec6,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &578005534
 Transform:
   m_ObjectHideFlags: 0
@@ -830,7 +827,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: 9ae6d0e9a30c54e01b40ea3d34825501,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &601333078
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,7 +927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &786301923
 Transform:
   m_ObjectHideFlags: 0
@@ -963,7 +959,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: c62148369258e4698aeb1ee46cf15a35,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &991844751
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &991844752
 Transform:
   m_ObjectHideFlags: 0
@@ -1012,7 +1007,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: d27f2b8a3a37e48e39c2043feae8b292,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &1044141547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +1023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1044141548
 Transform:
   m_ObjectHideFlags: 0
@@ -1061,7 +1055,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: 6a1f0580525c34410868ea967ad3c3f1,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &1067771883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,7 +1323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1655241062
 Transform:
   m_ObjectHideFlags: 0
@@ -1362,7 +1355,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: 3633240d09afc4132a2c8399aa33edee,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &1694600221
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,6 +1364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1694600222}
+  - component: {fileID: 1694600224}
   - component: {fileID: 1694600223}
   m_Layer: 0
   m_Name: Wind
@@ -1411,7 +1404,19 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: ca923417b229f4cf7ba63a45d9985bef,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
+--- !u!114 &1694600224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694600221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5394a82df18af419370ddf9a017edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 2
 --- !u!1 &1744453260
 GameObject:
   m_ObjectHideFlags: 0
@@ -1428,7 +1433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1744453261
 Transform:
   m_ObjectHideFlags: 0
@@ -1460,7 +1465,6 @@ MonoBehaviour:
   bulletprefeb: {fileID: 3260172481834325798, guid: 8c05d432570ad4c1394ca88d1980e0c6,
     type: 3}
   testMonster: {fileID: 1800798397}
-  attackRange: 3
 --- !u!1 &1800798395
 GameObject:
   m_ObjectHideFlags: 0

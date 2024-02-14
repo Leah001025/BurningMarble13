@@ -6,8 +6,8 @@ public class Bullet : MonoBehaviour
 {
     //총알이 몬스터를 따라가서 쏘게하기
     Transform target;
-    public float speed;
-    // Update is called once per frame
+    public float speed;//총알날라가는속도
+    
     void Update()
     {
         if (target != null)
@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
             {
                 Destroy(gameObject);
                 // 여기서 몬스터에게 데미지를 입히거나 다른 동작을 수행할 수 있습니다.
-                
+                //충돌작업
             }
         }
         else
@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour
 
     }
 
-    public void Initialize(Transform monsterTrans)
+    public void Initialize(Transform monsterTrans)//따라갈타겟의 transform넘겨주는용
     {
         target = monsterTrans;
     }
